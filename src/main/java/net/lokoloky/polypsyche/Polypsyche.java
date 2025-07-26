@@ -2,6 +2,7 @@ package net.lokoloky.polypsyche;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lokoloky.polypsyche.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class Polypsyche implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Loading " + MOD_ID);
+		ModItems.registerModItem();
 	}
 }
