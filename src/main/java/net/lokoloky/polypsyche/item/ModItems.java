@@ -1,9 +1,8 @@
-package net.lokoloky.polypsyche.items;
+package net.lokoloky.polypsyche.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.lokoloky.polypsyche.Polypsyche;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -18,7 +17,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(Polypsyche.MOD_ID, name), item);
     }
     public static void registerModItem() {
-        Polypsyche.LOGGER.info("Registering mod items" + Polypsyche.MOD_ID);
+        Polypsyche.LOGGER.info("Registering mod item " + Polypsyche.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
