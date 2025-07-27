@@ -15,12 +15,21 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    private static final Block PINK_GARNET_BLOCK = registerBlock("PINK_GARNET_BLOCK", new Block(
-            AbstractBlock.Settings.create().
+    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+            new Block(AbstractBlock.Settings.create().
                     strength(4f).
                     requiresTool().
                     sounds(BlockSoundGroup.NETHERITE)
-    ));
+            )
+    );
+
+    public static final Block RAW_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+            new Block(AbstractBlock.Settings.create().
+                    strength(4f).
+                    requiresTool().
+                    sounds(BlockSoundGroup.ANCIENT_DEBRIS)
+            )
+    );
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -37,6 +46,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(PINK_GARNET_BLOCK);
+            entries.add(RAW_GARNET_BLOCK);
         });
     }
 }
