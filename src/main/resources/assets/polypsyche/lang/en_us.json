@@ -2,6 +2,9 @@
   "item.polypsyche.pink_garnet": "Pink garnet",
   "item.polypsyche.raw_pink_garnet": "Raw pink garnet",
 
-  "item.polypsyche.pink_garnet_block": "Pink garnet block",
-  "item.polypsyche.raw_pink_garnet_block": "raw_pink garnet block"
+  "block.polypsyche.pink_garnet_block": "Pink garnet block",
+  "block.polypsyche.raw_pink_garnet_block": "Raw pink garnet block",
+
+  "itemgroup.polypsyche.pink_garnet_items": "Pink garnet items",
+  "itemgroup.polypsyche.pink_garnet_blocks": "Pink garnet blocks"
 }

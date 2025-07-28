@@ -17,11 +17,6 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(Polypsyche.MOD_ID, name), item);
     }
     public static void registerModItem() {
-        Polypsyche.LOGGER.info("Registering mod item " + Polypsyche.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
-        });
+        Polypsyche.LOGGER.info("Registering mod item for " + Polypsyche.MOD_ID);
     }
 }
