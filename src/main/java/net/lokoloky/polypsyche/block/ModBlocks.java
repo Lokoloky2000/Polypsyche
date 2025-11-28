@@ -3,6 +3,7 @@ package net.lokoloky.polypsyche.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.lokoloky.polypsyche.Polypsyche;
+import net.lokoloky.polypsyche.custom.blocks.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -48,6 +49,14 @@ public class ModBlocks {
                     strength(2f).
                     requiresTool().
                     sounds(BlockSoundGroup.DEEPSLATE)
+            )
+    );
+
+    public static final  Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().
+                    strength(1f).
+                    requiresTool().
+                    sounds(BlockSoundGroup.HONEY)
             )
     );
 
