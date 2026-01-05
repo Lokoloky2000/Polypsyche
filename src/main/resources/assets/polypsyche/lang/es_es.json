@@ -1,0 +1,16 @@
+{
+  "item.polypsyche.pink_garnet": "Gema rosa",
+  "item.polypsyche.raw_pink_garnet": "Gema rosa en bruto",
+  "item.polypsyche.chisel": "Cincel",
+  "item.polypsyche.netherator": "Netherator",
+  "item.polypsyche.coliflower": "Coliflor",
+
+  "block.polypsyche.pink_garnet_block": "Bloque de gema rosa",
+  "block.polypsyche.raw_pink_garnet_block": "Bloque de gema rosa en bruto",
+  "block.polypsyche.pink_garnet_ore": "Mena de gema rosa",
+  "block.polypsyche.deepslate_pink_garnet_ore": "Mena profunda de gema rosa",
+  "block.polypsyche.magic_block": "Bloque magico",
+
+  "itemgroup.polypsyche.pink_garnet_items": "Objetos de gema rosa",
+  "itemgroup.polypsyche.pink_garnet_blocks": "Bloques de gema rosa"
+}

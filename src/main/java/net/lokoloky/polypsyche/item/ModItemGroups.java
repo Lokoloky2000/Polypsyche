@@ -22,8 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.NETHERATOR);
+                        entries.add(ModItems.COLIFLOWER);
                     })
-
                     .build()
     );
 
@@ -40,7 +40,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.MAGIC_BLOCK);
                     })
-
                     .build()
     );
 

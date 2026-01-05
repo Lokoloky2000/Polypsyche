@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item COLIFLOWER = registerItem("coliflower", new Item(new Item.Settings().food(ModFoodComponents.COLIFLOWER)));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
     public static final Item NETHERATOR = registerItem("netherator", new NetheratorItem(new Item.Settings().maxDamage(1)));
